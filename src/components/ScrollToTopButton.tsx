@@ -4,7 +4,7 @@ type ScrollToTopButtonProps = {
 
 const ScrollToTopButton = ({ visible }: ScrollToTopButtonProps) => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -14,8 +14,8 @@ const ScrollToTopButton = ({ visible }: ScrollToTopButtonProps) => {
         fixed bottom-8 right-8
         bg-blue-600 text-white px-4 py-2 rounded shadow
         hover:bg-blue-700 transition
-        opacity-${visible ? "100" : "0"}
-        pointer-events-${visible ? "auto" : "none"}
+        opacity-${visible ? '100' : '0'}
+        pointer-events-${visible ? 'auto' : 'none'}
         transition-opacity duration-700
       `}
       aria-label="Scroll to top"

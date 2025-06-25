@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -15,14 +15,14 @@ const App = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const homeSection = document.getElementById("home");
+      const homeSection = document.getElementById('home');
       if (!homeSection) return;
       const homeBottom = homeSection.getBoundingClientRect().bottom;
       setNavbarHidden(homeBottom <= 0);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
@@ -38,7 +38,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-      <ScrollToTopButton visible={navbarHidden}/>
+      <ScrollToTopButton visible={navbarHidden} />
     </div>
   );
 };
