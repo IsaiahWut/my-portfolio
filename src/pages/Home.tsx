@@ -35,7 +35,6 @@ const Home = () => {
             />
           </p>
         </motion.div>
-
         <motion.img
           src={me}
           alt="Professional headshot of me"
