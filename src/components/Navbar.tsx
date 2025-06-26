@@ -25,7 +25,7 @@ const Navbar = ({ hidden }: NavbarProps) => {
         <a href="#resume" className="hover:text-white">
           Resume
         </a>
-        <a href="#CareerGoals" className="hover:text-white">
+        <a href="#career-goals" className="hover:text-white">
           Career Goals
         </a>
         <a href="#contact" className="hover:text-white">
