@@ -8,63 +8,69 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-screen flex flex-col items-center bg-gray-100 px-6 py-12"
+      className="min-h-screen flex flex-col items-center bg-gray-100 px-4 sm:px-6 md:px-12 py-10 sm:py-12 md:py-16"
     >
-      <div className="text-6xl font-bold mt-10 mb-20 text-center w-full max-w-6xl">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-16 text-center max-w-6xl w-full">
         About Me
-      </div>
+      </h2>
 
       {/* Container for boxes */}
-      <div className="flex flex-col md:flex-row items-center justify-center space-y-10 md:space-y-0 md:space-x-20 w-full max-w-6xl">
+      <div className="flex flex-col md:flex-row items-center justify-center space-y-10 md:space-y-0 md:space-x-16 w-full max-w-6xl">
         {/* Left column with Education and About Me */}
-        <div className="flex flex-col space-y-10 w-full md:w-auto">
+        <div className="flex flex-col space-y-10 w-full md:w-1/2">
           {/* Education box */}
-          <div className="border-4 border-blue-400 rounded-lg p-8 shadow-md flex flex-col justify-center items-center text-center w-full md:max-w-xl">
-            <div className="flex items-center space-x-3 text-5xl font-semibold text-blue-600">
+          <div className="border-4 border-blue-400 rounded-lg p-6 sm:p-8 shadow-md flex flex-col justify-center items-center text-center w-full">
+            <div className="flex items-center space-x-3 text-4xl sm:text-5xl font-semibold text-blue-600">
               <FaGraduationCap />
               <span>Education</span>
             </div>
-            <div className="flex flex-row items-center space-x-4 mt-4">
-              <div className="border border-blue-600 rounded p-1 flex items-center justify-center w-40 h-auto">
-                <img src={UCR} alt="UCR Logo" className="w-36 h-auto" />
+            <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6 mt-6 w-full max-w-xl">
+              <div className="border border-blue-600 rounded p-2 flex items-center justify-center w-40 h-auto flex-shrink-0">
+                <img
+                  src={UCR}
+                  alt="UCR Logo"
+                  className="w-36 h-auto object-contain"
+                />
               </div>
-              <div className="flex flex-col text-left mt-4">
-                <div className="text-lg font-medium">
+              <div className="flex flex-col text-left">
+                <div className="text-lg sm:text-xl font-medium">
                   University of California, Riverside
                 </div>
-                <div className="text-md font-medium">
+                <div className="text-md sm:text-lg font-medium">
                   Bachelor's in Robotics
                 </div>
-                <div className="text-md font-medium">2023 - 2027</div>
+                <div className="text-md sm:text-lg font-medium">
+                  2023 - 2027
+                </div>
               </div>
             </div>
           </div>
 
           {/* About Me box */}
-          <div className="border-4 border-blue-400 rounded-lg p-8 shadow-md flex flex-col justify-center items-center text-center w-full md:max-w-xl">
-            <div className="flex items-center space-x-3 text-5xl font-semibold text-blue-600 mb-2">
+          <div className="border-4 border-blue-400 rounded-lg p-6 sm:p-8 shadow-md flex flex-col justify-center items-center text-center w-full">
+            <div className="flex items-center space-x-3 text-4xl sm:text-5xl font-semibold text-blue-600 mb-2">
               <FaUser />
               <span>Who Am I?</span>
             </div>
-            <div className="text-lg mt-4">
+            <p className="text-base sm:text-lg mt-4 max-w-lg">
               Hello! I'm Isaiah, a robotics student learning more about computer
               engineering, mechanical engineering, and electrical engineering. I
               am fond of computer science and making useful and impactful
               projects.
-            </div>
+            </p>
           </div>
         </div>
 
         {/* Technical Skills box */}
-        <div className="border-4 border-blue-400 rounded-lg p-8 shadow-md flex flex-col justify-center items-center text-center w-full md:max-w-xl">
+        <div className="border-4 border-blue-400 rounded-lg p-6 sm:p-8 shadow-md flex flex-col justify-center items-center text-center w-full md:w-1/2 max-w-xl">
           {/* Title */}
-          <div className="flex items-center space-x-3 text-5xl font-semibold text-blue-600 mb-4">
+          <div className="flex items-center space-x-3 text-4xl sm:text-5xl font-semibold text-blue-600 mb-6">
             <FaComputer />
             <span>Technical Skills</span>
           </div>
 
           {/* Content aligned to left */}
-          <div className="flex flex-col w-full items-start text-left space-y-6 text-xl">
+          <div className="flex flex-col w-full items-start text-left space-y-6 text-base sm:text-xl">
             {/* Languages */}
             <div className="flex flex-col">
               <div className="flex items-center space-x-3 mb-2">
