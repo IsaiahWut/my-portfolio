@@ -36,7 +36,7 @@ const About = () => {
                 <div className="text-lg sm:text-xl font-medium">
                   University of California, Riverside
                 </div>
-                <div className="text-md sm:text-lg font-medium">
+                <div className="mt-2 text-md sm:text-lg font-medium">
                   Bachelor's in Robotics
                 </div>
                 <div className="text-md sm:text-lg font-medium">
@@ -56,7 +56,7 @@ const About = () => {
               Hello! I'm Isaiah, a robotics student learning more about computer
               engineering, mechanical engineering, and electrical engineering. I
               am fond of computer science and making useful and impactful
-              projects.
+              projects. Outside of engineering, I enjoy DJing 🎧 and working out 💪.
             </p>
           </div>
         </div>

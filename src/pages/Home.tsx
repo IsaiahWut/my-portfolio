@@ -25,6 +25,7 @@ const Home = () => {
                 'I build fun and useful projects',
                 'I enjoy working out',
                 'I collect retro video games',
+                'I like to DJ and create mixes',
               ]}
               loop={true}
               cursor

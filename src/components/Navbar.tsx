@@ -19,30 +19,16 @@ const Navbar = ({ hidden }: NavbarProps) => {
           Isaiah Alcayde <span role="img" aria-label="robot" className="text-2xl">🤖</span>
         </div>
 
-
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-x-10">
-          <a href="#home" className="hover:text-white">
-            Home
-          </a>
-          <a href="#about" className="hover:text-white">
-            About
-          </a>
-          <a href="#experience" className="hover:text-white">
-            Experience
-          </a>
-          <a href="#projects" className="hover:text-white">
-            Projects
-          </a>
-          <a href="#resume" className="hover:text-white">
-            Resume
-          </a>
-          <a href="#career-goals" className="hover:text-white">
-            Career Goals
-          </a>
-          <a href="#contact" className="hover:text-white">
-            Contact
-          </a>
+          <a href="#home" className="hover:text-white">Home</a>
+          <a href="#about" className="hover:text-white">About</a>
+          <a href="#experience" className="hover:text-white">Experience</a>
+          <a href="#projects" className="hover:text-white">Projects</a>
+          <a href="#resume" className="hover:text-white">Resume</a>
+          <a href="#career-goals" className="hover:text-white">Career Goals</a>
+          <a href="#hobbies" className="hover:text-white">Hobbies</a>
+          <a href="#contact" className="hover:text-white">Contact</a>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -72,55 +58,14 @@ const Navbar = ({ hidden }: NavbarProps) => {
       {/* Mobile Menu Dropdown */}
       {menuOpen && (
         <div className="md:hidden mt-4 flex flex-col gap-4 text-center">
-          <a
-            href="#home"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Home
-          </a>
-          <a
-            href="#about"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            About
-          </a>
-          <a
-            href="#experience"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Experience
-          </a>
-          <a
-            href="#projects"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Projects
-          </a>
-          <a
-            href="#resume"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Resume
-          </a>
-          <a
-            href="#career-goals"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Career Goals
-          </a>
-          <a
-            href="#contact"
-            className="hover:text-white"
-            onClick={() => setMenuOpen(false)}
-          >
-            Contact
-          </a>
+          <a href="#home" className="hover:text-white" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#about" className="hover:text-white" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#experience" className="hover:text-white" onClick={() => setMenuOpen(false)}>Experience</a>
+          <a href="#projects" className="hover:text-white" onClick={() => setMenuOpen(false)}>Projects</a>
+          <a href="#resume" className="hover:text-white" onClick={() => setMenuOpen(false)}>Resume</a>
+          <a href="#career-goals" className="hover:text-white" onClick={() => setMenuOpen(false)}>Career Goals</a>
+          <a href="#hobbies" className="hover:text-white" onClick={() => setMenuOpen(false)}>Hobbies</a>
+          <a href="#contact" className="hover:text-white" onClick={() => setMenuOpen(false)}>Contact</a>
         </div>
       )}
     </nav>
