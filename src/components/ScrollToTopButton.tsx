@@ -20,7 +20,7 @@ const ScrollToTopButton = ({ visible }: ScrollToTopButtonProps) => {
       `}
       aria-label="Scroll to top"
     >
-      ↑ Top
+      ↑
     </button>
   );
 };

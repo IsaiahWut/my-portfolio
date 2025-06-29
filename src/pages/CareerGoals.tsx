@@ -14,8 +14,8 @@ const CareerGoals = () => {
             I’m passionate about using technology to build meaningful,
             user-centered products—especially in areas like mental health,
             productivity, and accessibility. In the short term, I’m focused on
-            deepening my skills in full-stack development with React, Next.js,
-            Firebase, and modern AI integrations such as Gemini.
+            deepening my skills in full-stack development with React, Next.js
+            and modern AI integrations such as Gemini.
             <br />
             <br />
             My long-term goal is to become a lead engineer working on products

@@ -18,7 +18,7 @@ import BackImg from '../assets/back.png';
 const mixes = [
   {
     title: 'Dundee A115 Mix',
-    description: 'First ever party mix I played',
+    description: 'First ever party mix I played.',
     icon: <FaHeadphones className="text-4xl text-indigo-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/scott-bozniak/dundee-a115-mix&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -26,7 +26,7 @@ const mixes = [
   },
   {
     title: 'LO D121 Mix',
-    description: 'First dorm mix I created',
+    description: 'First ever dorm mix I created.',
     icon: <FaBed className="text-4xl text-yellow-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/scott-bozniak/lo-d121-mix&color=%23ffaa00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -34,7 +34,7 @@ const mixes = [
   },
   {
     title: 'Gellert 5 Mix',
-    description: 'A spontaneous mix I created with my friends',
+    description: 'A spontaneous mix I created with my friends.',
     icon: <FaBasketballBall className="text-4xl text-orange-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/scott-bozniak/gellert-5-mix&color=%23ff8800&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -42,7 +42,7 @@ const mixes = [
   },
   {
     title: 'San Ramon Jam Mix',
-    description: 'A mix I created with a jam session with my friends',
+    description: 'A mix I created with a jam session with my friends.',
     icon: <FaCloudSun className="text-4xl text-pink-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/zay-calhan/san-ramon-jam-mix&color=%23ff99cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -51,7 +51,7 @@ const mixes = [
   {
     title: '510 Baddietingz Mix',
     description:
-      'A party mix I made filled with lots of 2000s hits and west coast rap',
+      'A party mix I made filled with lots of 2000s hits and west coast rap.',
     icon: <FaHeart className="text-4xl text-red-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/zay-yayooby/510-baddietingz-mix&color=%23ff3366&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -60,7 +60,7 @@ const mixes = [
   {
     title: 'Matcha Mix',
     description:
-      'My second dorm mix I made inspired by my friend, shoutout Matcha By Aly',
+      'My second dorm mix I made inspired by my friend, shoutout Matcha By Aly.',
     icon: <FaMugHot className="text-4xl text-green-500" />,
     embedUrl:
       'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/zay-shababooey/matcha-mix&color=%2300cc99&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true',
@@ -101,7 +101,7 @@ const Hobbies = () => {
           {mixes.map((mix, index) => (
             <div
               key={index}
-              className="bg-gray-100 rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300 text-left"
+              className="bg-gray-200 rounded-2xl shadow-lg p-6 hover:shadow-2xl transition duration-300 text-left"
             >
               <div className="flex items-center space-x-4 mb-4">
                 {mix.icon}
