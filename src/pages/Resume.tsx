@@ -2,14 +2,21 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="h-screen flex flex-col justify-center items-center bg-white"
+      className="min-h-screen flex flex-col justify-center items-center bg-white px-4 py-8"
     >
-      <h1 className="text-3xl font-bold mb-4">Resume</h1>
-      <iframe
-        src="/Resume.pdf"
-        className="w-full max-w-4xl h-[80vh] border-2 border-gray-300"
-        title="Resume"
-      />
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 text-center max-w-6xl w-full">
+        Resume
+      </h2>
+
+      <div className="w-full max-w-4xl border-2 border-gray-300 rounded-md overflow-hidden shadow-lg">
+        <iframe
+          src="/Resume.pdf"
+          className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh]"
+          title="Resume"
+          frameBorder="0"
+          scrolling="auto"
+        />
+      </div>
     </section>
   );
 };

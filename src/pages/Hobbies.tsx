@@ -124,7 +124,10 @@ const Hobbies = () => {
                 <iframe
                   src={mix.embedUrl}
                   className="absolute top-0 left-0 w-full h-full rounded-lg"
-                  allow="autoplay"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                  loading="lazy"
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                   title={`SoundCloud Player - ${mix.title}`}
                 ></iframe>
               </div>
