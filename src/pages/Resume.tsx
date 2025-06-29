@@ -10,11 +10,9 @@ const Resume = () => {
 
       <div className="w-full max-w-4xl border-2 border-gray-300 rounded-md overflow-hidden shadow-lg">
         <iframe
-          src="/Resume.pdf"
+          src={`${process.env.PUBLIC_URL}/Resume.pdf`}
           className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh]"
           title="Resume"
-          frameBorder="0"
-          scrolling="auto"
         />
       </div>
     </section>
