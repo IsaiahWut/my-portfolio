@@ -1,4 +1,6 @@
-const Resume = () => {
+import React from 'react';
+
+const Resume: React.FC = () => {
   return (
     <section
       id="resume"
@@ -15,6 +17,18 @@ const Resume = () => {
           title="Resume"
         />
       </div>
+
+      <p className="mt-4 text-center">
+        Can't see the resume?{' '}
+        <a
+          href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          Open Resume in a new tab
+        </a>
+      </p>
     </section>
   );
 };
