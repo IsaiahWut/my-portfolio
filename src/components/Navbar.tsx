@@ -14,7 +14,6 @@ const Navbar = ({ hidden }: NavbarProps) => {
       }`}
     >
       <div className="mx-auto max-w-screen-xl flex items-center justify-between">
-        {/* Logo or Brand (optional) */}
         <div className="text-xl font-bold flex items-center gap-1">
           Isaiah Alcayde{' '}
           <span role="img" aria-label="robot" className="text-2xl">
