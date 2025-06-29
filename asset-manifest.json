@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.5457b677.css",
+    "main.js": "/my-portfolio/static/js/main.aadb6f6e.js",
+    "static/media/KatiSS.png": "/my-portfolio/static/media/KatiSS.52f24be83f057d859585.png",
+    "static/media/CSEAISS.png": "/my-portfolio/static/media/CSEAISS.8420111d4447545b994d.png",
+    "static/media/headshot.jpg": "/my-portfolio/static/media/headshot.6344030d23d5961d8dd5.jpg",
+    "static/media/Mix5.png": "/my-portfolio/static/media/Mix5.b572cac07acf062907ec.png",
+    "static/media/Mix3.png": "/my-portfolio/static/media/Mix3.6ceb00fdef1b17df6f6e.png",
+    "static/media/Mix1.png": "/my-portfolio/static/media/Mix1.8a6b1c2b212e1a82b85d.png",
+    "static/media/Mix2.png": "/my-portfolio/static/media/Mix2.7aaa7eb5eae995d508a3.png",
+    "static/media/Mix4.png": "/my-portfolio/static/media/Mix4.228435f05b5402cd314c.png",
+    "static/media/Mix6.png": "/my-portfolio/static/media/Mix6.9ea0ac8de3fda81a1567.png",
+    "static/media/back.png": "/my-portfolio/static/media/back.06d6d20c00f1febe96ae.png",
+    "static/media/UCRLogo.jpg": "/my-portfolio/static/media/UCRLogo.2ea0280d9204a5bc7a02.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.5457b677.css.map": "/my-portfolio/static/css/main.5457b677.css.map",
+    "main.aadb6f6e.js.map": "/my-portfolio/static/js/main.aadb6f6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5457b677.css",
+    "static/js/main.aadb6f6e.js"
+  ]
+}
