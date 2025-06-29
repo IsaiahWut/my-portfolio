@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5457b677.css",
-    "main.js": "/my-portfolio/static/js/main.73ce3a4c.js",
+    "main.css": "/my-portfolio/static/css/main.e35ccb35.css",
+    "main.js": "/my-portfolio/static/js/main.ac6725aa.js",
     "static/media/KatiSS.png": "/my-portfolio/static/media/KatiSS.52f24be83f057d859585.png",
     "static/media/CSEAISS.png": "/my-portfolio/static/media/CSEAISS.8420111d4447545b994d.png",
     "static/media/headshot.jpg": "/my-portfolio/static/media/headshot.6344030d23d5961d8dd5.jpg",
@@ -14,11 +14,11 @@
     "static/media/back.png": "/my-portfolio/static/media/back.06d6d20c00f1febe96ae.png",
     "static/media/UCRLogo.jpg": "/my-portfolio/static/media/UCRLogo.2ea0280d9204a5bc7a02.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.5457b677.css.map": "/my-portfolio/static/css/main.5457b677.css.map",
-    "main.73ce3a4c.js.map": "/my-portfolio/static/js/main.73ce3a4c.js.map"
+    "main.e35ccb35.css.map": "/my-portfolio/static/css/main.e35ccb35.css.map",
+    "main.ac6725aa.js.map": "/my-portfolio/static/js/main.ac6725aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.5457b677.css",
-    "static/js/main.73ce3a4c.js"
+    "static/css/main.e35ccb35.css",
+    "static/js/main.ac6725aa.js"
   ]
 }
