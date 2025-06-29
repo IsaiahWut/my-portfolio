@@ -56,7 +56,8 @@ const About = () => {
               Hello! I'm Isaiah, a robotics student learning more about computer
               engineering, mechanical engineering, and electrical engineering. I
               am fond of computer science and making useful and impactful
-              projects. Outside of engineering, I enjoy DJing 🎧 and working out 💪.
+              projects. Outside of engineering, I enjoy DJing 🎧 and working out
+              💪.
             </p>
           </div>
         </div>

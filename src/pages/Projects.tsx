@@ -1,43 +1,44 @@
-import { FaCode, FaEnvelopeOpenText, FaFireAlt, FaRobot } from "react-icons/fa";
-import { FaDraftingCompass } from "react-icons/fa";
+import { FaCode, FaEnvelopeOpenText, FaFireAlt, FaRobot } from 'react-icons/fa';
+import { FaDraftingCompass } from 'react-icons/fa';
 
 const projects = [
   {
-    title: "Task Organizer",
-    description: "A C++ task manager with filtering and automated unit tests.",
-    tech: ["C++", "Google Test"],
-    github: "https://github.com/IsaiahWut/CS100-TaskOrganizer",
+    title: 'Task Organizer',
+    description: 'A C++ task manager with filtering and automated unit tests.',
+    tech: ['C++', 'Google Test'],
+    github: 'https://github.com/IsaiahWut/CS100-TaskOrganizer',
     icon: <FaCode className="text-3xl text-blue-500" />,
   },
   {
-    title: "Gmail Agent Organizer",
+    title: 'Gmail Agent Organizer',
     description:
-      "Built an AI email organizer using Python, AgentStack, and Gmail API to auto-label, categorize, and reply to emails.",
-    tech: ["Python", "AgentStack", "Gemini", "Gmail API"],
-    github: "https://github.com/IsaiahWut/Gmail-Organizer-Agent",
+      'Built an AI email organizer using Python, AgentStack, and Gmail API to auto-label, categorize, and reply to emails.',
+    tech: ['Python', 'AgentStack', 'Gemini', 'Gmail API'],
+    github: 'https://github.com/IsaiahWut/Gmail-Organizer-Agent',
     icon: <FaEnvelopeOpenText className="text-3xl text-red-500" />,
   },
   {
-    title: "Wildfire Risk Assessor",
+    title: 'Wildfire Risk Assessor',
     description:
-      "Co-developed a web app achieving 85% accuracy in wildfire risk assessment using a custom algorithm analyzing 10+ weather parameters.",
-    tech: ["Python", "Flask", "Gemini API", "Google Geocoding API", "HTML/CSS"],
-    github: "https://github.com/IsaiahWut/WildfireRiskAssessor",
+      'Co-developed a web app achieving 85% accuracy in wildfire risk assessment using a custom algorithm analyzing 10+ weather parameters.',
+    tech: ['Python', 'Flask', 'Gemini API', 'Google Geocoding API', 'HTML/CSS'],
+    github: 'https://github.com/IsaiahWut/WildfireRiskAssessor',
     icon: <FaFireAlt className="text-3xl text-orange-500" />,
   },
   {
-    title: "Web Scraping and Automation Bot",
+    title: 'Web Scraping and Automation Bot',
     description:
-      "Built an automation bot using Selenium to auto-fill online forms, reducing manual effort and wait time by 80%.",
-    tech: ["Python", "Selenium"],
-    github: "https://github.com/IsaiahWut/Basic-Needs-WebForm-Filler",
+      'Built an automation bot using Selenium to auto-fill online forms, reducing manual effort and wait time by 80%.',
+    tech: ['Python', 'Selenium'],
+    github: 'https://github.com/IsaiahWut/Basic-Needs-WebForm-Filler',
     icon: <FaRobot className="text-3xl text-purple-500" />,
   },
   {
-    title: "Engineering Graphics and Design Project",
-    description:"Modeled an inclusive playground carousel in SolidWorks with a focus on accessibility and manufacturability.",
-    tech: ["SolidWorks"],
-    github: "https://github.com/IsaiahWut/ME9-Design-Project.git",
+    title: 'Engineering Graphics and Design Project',
+    description:
+      'Modeled an inclusive playground carousel in SolidWorks with a focus on accessibility and manufacturability.',
+    tech: ['SolidWorks'],
+    github: 'https://github.com/IsaiahWut/ME9-Design-Project.git',
     icon: <FaDraftingCompass className="text-3xl text-gray-400" />,
   },
 ];
@@ -46,7 +47,9 @@ const Projects = () => {
   return (
     <section id="projects" className="min-h-screen bg-gray-100 py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-16 text-center max-w-6xl w-full">Projects</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-16 text-center max-w-6xl w-full">
+          Projects
+        </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
