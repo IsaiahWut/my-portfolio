@@ -85,15 +85,6 @@ const Hobbies = () => {
               also enjoy working out.
             </p>
           </div>
-
-          {/* Image Box (right on md+) */}
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img
-              src={BackImg}
-              alt="Back Pic"
-              className="rounded-lg shadow-md max-w-full h-auto"
-            />
-          </div>
         </div>
 
         {/* Mixes Grid */}
