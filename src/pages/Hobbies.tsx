@@ -13,7 +13,6 @@ import Mix3Image from '../assets/Mix3.png';
 import Mix4Image from '../assets/Mix4.png';
 import Mix5Image from '../assets/Mix5.png';
 import Mix6Image from '../assets/Mix6.png';
-import BackImg from '../assets/back.png';
 
 const mixes = [
   {
