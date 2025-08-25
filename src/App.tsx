@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 import Hobbies from './pages/Hobbies';
+import Certificates from './pages/Certificates';
 
 const App = () => {
   const [navbarHidden, setNavbarHidden] = useState(false);
@@ -36,6 +37,7 @@ const App = () => {
         <Projects />
         <Resume />
         <CareerGoals />
+        <Certificates />
         <Hobbies />
         <Contact />
       </main>

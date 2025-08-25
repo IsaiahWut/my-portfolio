@@ -69,7 +69,7 @@ const mixes = [
 
 const Hobbies = () => {
   return (
-    <section id="hobbies" className="min-h-screen bg-white py-16 px-6">
+    <section id="hobbies" className="min-h-screen bg-gray-100 py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 sm:mb-16">
           Hobbies
