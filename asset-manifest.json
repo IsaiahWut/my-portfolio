@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c2ed66c6.css",
-    "main.js": "/my-portfolio/static/js/main.b4439205.js",
+    "main.css": "/my-portfolio/static/css/main.48045ea8.css",
+    "main.js": "/my-portfolio/static/js/main.8805c91e.js",
     "static/media/KatiSS.png": "/my-portfolio/static/media/KatiSS.52f24be83f057d859585.png",
     "static/media/CSEAISS.png": "/my-portfolio/static/media/CSEAISS.8420111d4447545b994d.png",
     "static/media/headshot.jpg": "/my-portfolio/static/media/headshot.6344030d23d5961d8dd5.jpg",
@@ -11,13 +11,19 @@
     "static/media/Mix2.png": "/my-portfolio/static/media/Mix2.7aaa7eb5eae995d508a3.png",
     "static/media/Mix4.png": "/my-portfolio/static/media/Mix4.228435f05b5402cd314c.png",
     "static/media/Mix6.png": "/my-portfolio/static/media/Mix6.9ea0ac8de3fda81a1567.png",
+    "static/media/CertificateOfCompletion_Practical GitHub Project Management and Collaboration.png": "/my-portfolio/static/media/CertificateOfCompletion_Practical GitHub Project Management and Collaboration.35051f876bc483df6cec.png",
+    "static/media/CertificateOfCompletion_Cybersecurity Foundations.png": "/my-portfolio/static/media/CertificateOfCompletion_Cybersecurity Foundations.679a1e76e75372582793.png",
+    "static/media/CertificateOfCompletion_Career Essentials in GitHub Professional Certificate.png": "/my-portfolio/static/media/CertificateOfCompletion_Career Essentials in GitHub Professional Certificate.63d4b851b3a02bca77fa.png",
+    "static/media/CertificateOfCompletion_Practical GitHub Code Search.png": "/my-portfolio/static/media/CertificateOfCompletion_Practical GitHub Code Search.5efa5c2300f9f8a7e158.png",
+    "static/media/CertificateOfCompletion_Practical GitHub Copilot.png": "/my-portfolio/static/media/CertificateOfCompletion_Practical GitHub Copilot.81b0f9f4298d8b685343.png",
+    "static/media/CertificateOfCompletion_Practical GitHub Actions.png": "/my-portfolio/static/media/CertificateOfCompletion_Practical GitHub Actions.50169a13a4d3523c8ab9.png",
     "static/media/UCRLogo.jpg": "/my-portfolio/static/media/UCRLogo.2ea0280d9204a5bc7a02.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.c2ed66c6.css.map": "/my-portfolio/static/css/main.c2ed66c6.css.map",
-    "main.b4439205.js.map": "/my-portfolio/static/js/main.b4439205.js.map"
+    "main.48045ea8.css.map": "/my-portfolio/static/css/main.48045ea8.css.map",
+    "main.8805c91e.js.map": "/my-portfolio/static/js/main.8805c91e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ed66c6.css",
-    "static/js/main.b4439205.js"
+    "static/css/main.48045ea8.css",
+    "static/js/main.8805c91e.js"
   ]
 }
