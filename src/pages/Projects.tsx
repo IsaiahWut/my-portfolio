@@ -45,7 +45,15 @@ const projects = [
     title: 'Current Project - Lum App',
     description:
       'Built "Lum", a Next.js web app recommending date ideas, gifts, and messages using user preferences, location, and Gemini AI integration, deployed on Vercel with Firebase backend.',
-    tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Gemini API', 'Vercel'],
+    tech: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Firebase',
+      'Gemini API',
+      'Vercel',
+    ],
     github: 'https://github.com/IsaiahWut/lum-app.git',
     icon: <FaCode className="text-3xl text-green-500" />,
   },
